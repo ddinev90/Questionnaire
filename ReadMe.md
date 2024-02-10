@@ -72,7 +72,6 @@ Returns a list of questions in JSON format.
 
 ## Improvements
 
-- Implement unit tests to ensure the reliability of the codebase.
 - Add support for dynamic question generation or integration with an external question database.
 - Implement authentication and authorization mechanisms if the API requires restricted access.
 
