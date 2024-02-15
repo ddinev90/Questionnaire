@@ -16,7 +16,7 @@ namespace QuestionnaireApi.Controllers
         {
             _logger.Log(LogLevel.Information, "Get Questionnaire Method Called");
             //There could be different question types and we could add a method called " GetByType " and pass the parameter through url for eg.
-            return Ok(_questionnaireService.GetQuestions("Geography Questions"));
+            return Ok(_questionnaireService.GetQuestionnaire("Geography Questions"));
         }
     }
 }

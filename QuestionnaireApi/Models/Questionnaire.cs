@@ -1,6 +1,6 @@
 ﻿namespace QuestionnaireApi.Models
 {
-    public class Question
+    public class Questionnaire
     {
         public string QuestionnaireTitle { get; set; }
         public IEnumerable<string> QuestionnaireText { get; set; }

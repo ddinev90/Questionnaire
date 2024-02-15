@@ -8,9 +8,9 @@ namespace QuestionnaireApi.Services
     {
         private readonly IQuestionRepository _questionRepository = questionRepository;
 
-        public Question GetQuestions(string questionnaireType)
+        public Questionnaire GetQuestionnaire(string questionnaireType)
         {
-            return new Question()
+            return new Questionnaire()
             {
                 QuestionnaireTitle = questionnaireType,
                 QuestionnaireText = _questionRepository.GetQuestions(questionnaireType)

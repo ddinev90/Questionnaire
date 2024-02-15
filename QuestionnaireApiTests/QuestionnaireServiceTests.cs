@@ -18,7 +18,7 @@ namespace QuestionnaireApiTests
             var service = new QuestionnaireService(mockRepository.Object);
 
             // Act
-            var actual = service.GetQuestions("Geography Questions");
+            var actual = service.GetQuestionnaire("Geography Questions");
 
             // Assert
             Assert.Multiple(() =>
@@ -43,7 +43,7 @@ namespace QuestionnaireApiTests
             var service = new QuestionnaireService(mockRepository.Object);
 
             // Act
-            var actual = service.GetQuestions("Invalid Type");
+            var actual = service.GetQuestionnaire("Invalid Type");
 
             // Assert
             Assert.Multiple(() =>
